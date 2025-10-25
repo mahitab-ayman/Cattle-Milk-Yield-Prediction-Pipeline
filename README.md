@@ -20,7 +20,7 @@ visualize.py → summary_plot.png
 cluster.py → clusters.txt
 summary.sh → All results copied to host
 
-text
+
 
 ## Docker Commands
 
