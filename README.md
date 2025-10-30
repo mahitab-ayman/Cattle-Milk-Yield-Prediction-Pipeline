@@ -30,16 +30,12 @@ docker build -t cattle-analytics:latest .
 text
 
 ### Run Container
-docker run -it --name customer-analytics -v $(pwd):/app/pipeline cattle-analytics:latest
-
-text
-
-**Windows PowerShell:** `docker run -it --name customer-analytics -v ${PWD}:/app/pipeline cattle-analytics:latest`  
-**Windows CMD:** `docker run -it --name customer-analytics -v %cd%:/app/pipeline cattle-analytics:latest`
+  
+**Windows CMD:** docker run -it --name cow-analytics -v %cd%:/app/pipeline cattle-analytics:latest
 
 ### Execute Pipeline
 Inside container:
-python ingest.py cattle_milk_yield.csv
+python ingest.py global_cattle_milk_yield_prediction_dataset.csv
 
 
 
