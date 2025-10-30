@@ -27,7 +27,7 @@ summary.sh → All results copied to host
 ### Build Image
 docker build -t cattle-analytics:latest .
 
-text
+
 
 ### Run Container
   
@@ -41,6 +41,9 @@ python ingest.py global_cattle_milk_yield_prediction_dataset.csv
 
 ### Extract Results
 exit
+### in git bash
+cd /c/Users/mahya/Downloads/DockerAssignment
+
 bash summary.sh
 
 
